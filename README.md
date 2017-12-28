@@ -1,14 +1,19 @@
-# Sample Docker + Webpack
-
-This repository is created for this [Medium post](https://medium.com/@andyccs/ae0e73243db4)
+# Example Docker + Webpack + React
 
 # How to run this project?
 
 ```Shell
 # For development
 $ node index.js
+$ or
+$ npm run dev
+
+# For development with docker
+$ docker-compose up (rm - remove)
 
 # For production
 $ webpack
 $ NODE_ENV=production node index.js
+$ or
+$ npm start
 ```

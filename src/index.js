@@ -1,4 +1,5 @@
 import React from 'react';
-import Greeting from './greeting';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-React.render(<Greeting name='World'/>, document.body);
+ReactDOM.render(<App name='World'/>, document.getElementById('root'));
